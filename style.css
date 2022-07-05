@@ -40,7 +40,7 @@ body {
     color: #fff;
     text-decoration: none;
     padding: 10px;
-    background-color: rgb(97, 83, 83);
+    background-color: rgb(157, 151, 151);
     border-radius: 4px;
 }
 
@@ -48,6 +48,7 @@ body {
 #donate_part {
     text-align: center;
     padding-top: 70px;
+    margin-bottom: 100px;
 }
 
 #donate_part h1 {
@@ -107,6 +108,33 @@ body {
     text-decoration: none;
     padding: 10px;
     margin-top: 20px;
-    background-color: rgb(97, 83, 83);
+    background-color: rgb(178, 176, 176);
     border-radius: 4px;
+}
+
+/*footer part*/
+.footer {
+    height: 150px;
+    background-color: rgb(7, 3, 31);
+}
+
+.footer h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 45px 0 20px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+.be {
+    color: #000;
+}
+
+.humble {
+    color: gray;
 }
