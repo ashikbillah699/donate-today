@@ -8,7 +8,7 @@ body {
 }
 
 /*header css*/
-header {
+#header_part {
     background-image: url(images/headera_img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -41,6 +41,72 @@ header {
     text-decoration: none;
     padding: 10px;
     background-color: rgb(97, 83, 83);
+    border-radius: 4px;
 }
 
 /*donate css*/
+#donate_part {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#donate_part h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#donate_part p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: gray;
+    padding-bottom: 29px;
+    padding-top: 15px;
+}
+
+.donate_items {
+    padding: 0 400px;
+}
+
+.items {
+    float: left;
+}
+
+.items h2 {
+    font-size: 20px;
+    color: gray;
+    padding: 20px;
+    margin-right: 10px;
+    background-color: rgb(248, 244, 244);
+}
+
+.items200 h2 {
+    color: rgb(247, 117, 117);
+    background-color: rgb(254, 235, 235);
+    border: 1px solid rgb(247, 117, 117);
+}
+
+.Amount {
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.Amount p {
+    color: rgb(167, 166, 166);
+}
+
+.Amount hr {
+    margin: 0px 475px;
+    color: gray;
+}
+
+#donate_part a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(97, 83, 83);
+    border-radius: 4px;
+}
