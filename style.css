@@ -48,7 +48,7 @@ body {
 #donate_part {
     text-align: center;
     padding-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 115px;
 }
 
 #donate_part h1 {
@@ -165,4 +165,43 @@ body {
 
 .education {
     background-color: blanchedalmond;
+}
+
+/*join css*/
+#charity {
+    display: block;
+    margin-top: 150px;
+}
+
+.charity_header {
+    text-align: center;
+}
+
+.charity_header h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+.charity_header p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: gray;
+    padding: 15px 100px 29px;
+}
+
+.charity_img {
+    width: 100%;
+    float: left;
+    display: flex;
+}
+
+.img_item {
+    width: 20%;
+    margin: 0px 30px;
+}
+
+.img_item img {
+    height: 200px;
 }
