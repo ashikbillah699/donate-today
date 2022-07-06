@@ -166,31 +166,3 @@ body {
 .education {
     background-color: blanchedalmond;
 }
-
-/*footer part*/
-.footer {
-    height: 150px;
-    background-color: rgb(7, 3, 31);
-    margin-top: 200px;
-}
-
-.footer h1 {
-    font-size: 30px;
-    text-align: center;
-    padding: 45px 0 20px;
-}
-
-.footer p {
-    text-align: center;
-    font-size: 12px;
-    font-weight: 400;
-    color: grey;
-}
-
-.be {
-    color: #000;
-}
-
-.humble {
-    color: gray;
-}
