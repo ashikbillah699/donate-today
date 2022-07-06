@@ -112,10 +112,66 @@ body {
     border-radius: 4px;
 }
 
+/*donate plan css*/
+.plan_header {
+    text-align: center;
+}
+
+.plan_header h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.plan_header p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: gray;
+    padding-bottom: 29px;
+    padding-top: 15px;
+}
+
+.plan_item {
+    padding: 10px 80px 200px 120px;
+}
+
+.item_food {
+    width: 30.33%;
+    float: left;
+    margin: 0 10px;
+    padding: 70px 0px 20px;
+}
+
+.item_food img {
+    margin: 0 0 20px 20px;
+}
+
+.item_food h2 {
+    margin: 0 0 20px 20px;
+}
+
+.item_food p {
+    padding: 0 0 20px 20px;
+    color: rgb(167, 166, 166)
+}
+
+.food {
+    background-color: rgb(240, 251, 255);
+}
+
+.shelter {
+    background: rgb(250, 239, 235);
+}
+
+.education {
+    background-color: blanchedalmond;
+}
+
 /*footer part*/
 .footer {
     height: 150px;
     background-color: rgb(7, 3, 31);
+    margin-top: 200px;
 }
 
 .footer h1 {
